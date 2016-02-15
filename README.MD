@@ -1,1 +1,1 @@
-Notes for book "Gossip of Design Patterns".
+Notes for book "Gossip about Design Patterns".
