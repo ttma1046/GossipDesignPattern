@@ -39,8 +39,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AbstractFactory\Entity\Department.cs" />
+    <Compile Include="AbstractFactory\FactoryMethod\AccessDepartment.cs" />
+    <Compile Include="AbstractFactory\FactoryMethod\AccessFactory.cs" />
+    <Compile Include="AbstractFactory\FactoryMethod\AccessOperation.cs" />
+    <Compile Include="AbstractFactory\FactoryMethod\IDepartmentOperation.cs" />
+    <Compile Include="AbstractFactory\FactoryMethod\IFactory.cs" />
+    <Compile Include="AbstractFactory\FactoryMethod\IUserOperation.cs" />
+    <Compile Include="AbstractFactory\FactoryMethod\Program.cs" />
+    <Compile Include="AbstractFactory\FactoryMethod\SqlServerDepartment.cs" />
+    <Compile Include="AbstractFactory\FactoryMethod\SqlServerFactory.cs" />
+    <Compile Include="AbstractFactory\FactoryMethod\SqlServerUser.cs" />
+    <Compile Include="AbstractFactory\WithoutFactory\SqlserverUser.cs" />
+    <Compile Include="AbstractFactory\Entity\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleFactoryAndFactoryMethod\LeiFeng.cs" />
+    <Compile Include="SimpleFactoryAndFactoryMethod\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="StrategyPattern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
